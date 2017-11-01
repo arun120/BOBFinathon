@@ -25,9 +25,9 @@ public class Dbdetails {
 
     
     final static private String Driver="com.mysql.jdbc.Driver";
-    final static private String UserName="fluffy";
+    final static private String UserName="root";
     final static private String Pass="1234";
-    private static String Url="jdbc:mysql://fluffy.mrmeow.org:3306/bob";
+    private static String Url="jdbc:mysql://localhost:3306/bob";
      private static Connection conn;
     
    static {
